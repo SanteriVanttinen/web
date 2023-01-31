@@ -1,23 +1,31 @@
 .navbar {
-    background-color:darkkhaki
+   background-color: rgba(8, 8, 8, 0.388);
+    
 }
 body{
-    background-color: beige;
+background:url(./images/background1.jpg) no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+color: white;
 }
 
 .nav-link,bar
 .navbar-brand{
     color: white;
+   
 }
 
 .nav-link{
     margin-right: 25px;
+   
 }
 .navbar-collapse{
+  
     justify-content: flex-end;
 }
 .footer {
-    background-color:darkkhaki;
+  
     color:white;
   
 }
@@ -25,4 +33,7 @@ body{
 .img{
     height: 300px;
     width: auto;
+}
+.p-color{
+    color:white;
 }
